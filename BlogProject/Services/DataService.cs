@@ -77,18 +77,18 @@ namespace PersonalBlog.Services
 
                 var adminUser = new BlogUser()
                 {
-                    Email = "admin@example.com",
-                    UserName = "admin@example.com",
-                    FirstName = "Admin",
-                    LastName = "Admin",
+                    Email = "coder.isiah.jones@gmail.com",
+                    UserName = "coder.isiah.jones@gmail.com",
+                    FirstName = "Isiah",
+                    LastName = "Jones",
                     PhoneNumber = "",
                     ImageData = await _imageService.EncodeImageAsync(_configuration["DefaultUserImage"]),
                     ContentType = Path.GetExtension(_configuration["DefaultUserImage"]),
                     EmailConfirmed = true
                 };
 
-                //Use UserManager to Create user defined by 
-                await _userManager.CreateAsync(adminUser, "yourPassword!");
+                //Use UserManager to Create user defined by
+                await _userManager.CreateAsync(adminUser, "@Abctest123!");
 
                 //Add Admin Role to new User
                 await _userManager.AddToRoleAsync(adminUser, BlogRole.Admin.ToString());
@@ -105,8 +105,8 @@ namespace PersonalBlog.Services
                     EmailConfirmed = true
                 };
 
-                //Use UserManager to Create user defined by 
-                await _userManager.CreateAsync(modUser, "YourPassword");
+                //Use UserManager to Create user defined by
+                await _userManager.CreateAsync(modUser, "@Abctest123!");
 
                 //Add Admin Role to new User
                 await _userManager.AddToRoleAsync(modUser, BlogRole.Moderator.ToString());

@@ -9,7 +9,7 @@
 Main hero START -->
 <section class="pt-4 pb-0 card-grid">
     <div class="container">
-       
+
         <div class="row g-4">
             @if (ViewBag.Large is not null)
             {
@@ -34,7 +34,7 @@ Main hero START -->
                                                 <div class="avatar avatar-sm">
                                                     <img class="avatar-img rounded-circle" src="@_imageService.DecodeImage(ViewBag.Large.BlogUser.ImageData, ViewBag.Large.BlogUser.ContentType)" style="object-fit: cover;" alt="avatar">
                                                 </div>
-                                                <span class="ms-3">by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a></span>
+                                                <span class="ms-3">by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -66,7 +66,7 @@ Main hero START -->
                                         <ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
                                             <li class="nav-item position-relative">
                                                 <div class="nav-link">
-                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a>
+                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">@ViewBag.Top.Created.ToString("MMM dd, yyyy")</li>
@@ -94,7 +94,7 @@ Main hero START -->
                                         <ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
                                             <li class="nav-item position-relative">
                                                 <div class="nav-link">
-                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a>
+                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">@ViewBag.BottomRight.Created.ToString("MMM dd, yyyy")</li>
@@ -122,7 +122,7 @@ Main hero START -->
                                         <ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
                                             <li class="nav-item position-relative">
                                                 <div class="nav-link">
-                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a>
+                                                    by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a>
                                                 </div>
                                             </li>
                                             <li class="nav-item">@ViewBag.BottomLeft.Created.ToString("MMM dd, yyyy")</li>
@@ -186,7 +186,7 @@ Main content START -->
                                                         <div class="avatar avatar-xs">
                                                             <img class="avatar-img rounded-circle" src="@_imageService.DecodeImage(post.BlogUser.ImageData, post.BlogUser.ContentType)" style="object-fit: cover;" alt="avatar">
                                                         </div>
-                                                        <span class="ms-3">by <a asp-area="" asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a></span>
+                                                        <span class="ms-3">by <a asp-area="" asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a></span>
                                                     </div>
                                                 </div>
                                             </li>
@@ -205,12 +205,6 @@ Main content START -->
                         }
                     }
 
-                    <!-- Load more START -->
-                    @*<div class="col-12 text-center mt-5">
-            <button type="button" class="btn btn-primary-soft">View more posts<i class="bi bi-arrow-down-circle ms-2 align-middle"></i></button>
-        </div>*@
-                    <!-- Load more END -->
-
                 </div>
             </div>
             <!-- Highlights END -->
@@ -221,23 +215,23 @@ Main content START -->
                     <!-- Social widget START -->
                     <div class="row g-2">
                         <div class="col-4">
-                            <a href="https://twitch.tv/pandacodecamp" target="_blank" class="rounded text-center text-white-force p-3 d-block" style="background-color: #6441a5">
-                                <i class="fab fa-twitch fs-5 mb-2"></i>
-                                <h6 class="m-0">1.5K</h6>
+                            <a href="https://twitter.com/IsiahJones_33" target="_blank" class="rounded text-center text-white-force p-3 d-block" style="background-color: #1DA1F2">
+                                <i class="fab fa-twitter fs-5 mb-2"></i>
+                                <h6 class="m-0">170</h6>
                                 <span class="small">Followers</span>
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="https://www.instagram.com/brittanyjonah_/" target="_blank" class="bg-instagram-gradient rounded text-center text-white-force p-3 d-block">
+                            <a href="https://www.instagram.com/isiahjones_33/" target="_blank" class="bg-instagram-gradient rounded text-center text-white-force p-3 d-block">
                                 <i class="fab fa-instagram fs-5 mb-2"></i>
-                                <h6 class="m-0">54</h6>
+                                <h6 class="m-0">745</h6>
                                 <span class="small">Followers</span>
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="https://youtube.com/pandacodecamp" target="_blank" class="bg-youtube rounded text-center text-white-force p-3 d-block">
+                            <a href="https://www.youtube.com/channel/UCVjVyFdR0_p2RohF5OMHVKQ" target="_blank" class="bg-youtube rounded text-center text-white-force p-3 d-block">
                                 <i class="fab fa-youtube-square fs-5 mb-2"></i>
-                                <h6 class="m-0">111</h6>
+                                <h6 class="m-0">100</h6>
                                 <span class="small">Subs</span>
                             </a>
                         </div>
@@ -304,15 +298,6 @@ Main content START -->
                         </div>
                         <!-- Recent post widget END -->
 
-                        <!-- ADV widget START -->
-                        <!--<div class="col-12 col-sm-6 col-lg-12 my-4">
-                            <a href="#" class="d-block card-img-flash">
-                                <img src="images/adv.png" alt="">
-                            </a>
-                            <div class="smaller text-end mt-2">ads via <a href="#" class="text-body"><u>Bootstrap</u></a></div>
-                        </div>-->
-                        <!-- ADV widget END -->
-
                     </div>
                 </div>
             </div>
@@ -336,7 +321,6 @@ Sponsored Posts Section START -->
                 <!-- Title -->
                 <div class="mb-4 d-md-flex justify-content-between align-items-center">
                     <h2 class="m-0"><i class="bi bi-megaphone"></i> Sponsored Posts</h2>
-                    @*<a asp-area="" asp-controller="Home" asp-action="About" class="text-body small"><u>Content by: Brittany Jonah</u></a>*@
                 </div>
                 <div class="tiny-slider arrow-hover arrow-blur arrow-dark arrow-round">
                     <div class="tiny-slider-inner"
@@ -382,7 +366,7 @@ Sponsored Posts Section START -->
                                                         <div class="avatar avatar-xs">
                                                             <img class="avatar-img rounded-circle" src="@_imageService.DecodeImage(post.BlogUser.ImageData, post.BlogUser.ContentType)" style="object-fit: cover;" alt="Author Avatar">
                                                         </div>
-                                                        <span class="ms-3">by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Brittany</a></span>
+                                                        <span class="ms-3">by <a asp-controller="Home" asp-action="About" class="stretched-link text-reset btn-link">Isiah</a></span>
                                                     </div>
                                                 </div>
                                             </li>
