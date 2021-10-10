@@ -29,4 +29,26 @@
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Views\Blogs\Create.cshtml" />
+    <None Include="Views\Blogs\Details.cshtml" />
+    <None Include="Views\Blogs\Edit.cshtml" />
+    <None Include="Views\Blogs\Index.cshtml" />
+    <None Include="Views\Comments\Index.cshtml" />
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Posts\Create.cshtml" />
+    <None Include="Views\Posts\Details.cshtml" />
+    <None Include="Views\Posts\Edit.cshtml" />
+    <None Include="Views\Posts\Index.cshtml" />
+    <None Include="Views\Posts\SearchIndex.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
 </Project>
