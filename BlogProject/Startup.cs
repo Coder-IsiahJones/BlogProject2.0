@@ -35,9 +35,6 @@ namespace BlogProject
                     ConnectionService.GetConnectionString(Configuration))); //goes to appsettings.json file to get DefaultConnection
 
             services.AddDatabaseDeveloperPageExceptionFilter();
-            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            //    .AddEntityFrameworkStores<ApplicationDbContext>();
-
 
             //Updated to register service to BlogUser
             services.AddIdentity<BlogUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
